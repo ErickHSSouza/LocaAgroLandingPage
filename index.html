@@ -22,7 +22,7 @@
           <a class="nav-link" href="#maquinas">Nossos Produtos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contratar">Contratar</a>
+          <a class="nav-link" href="#contato">Contato</a>
         </li>
       </ul>
     </div>
@@ -39,7 +39,7 @@
     <div class="content-video">
       <h1 class="display-4"><strong>Bem-vindo à LocaAgro</strong></h1>
       <p class="lead">Encontre solução completa em locação e venda as melhores máquinas agrícolas</p>
-      <a href="#" class="btn btn-success border-light">Botão Saiba Mais</a>
+      <a href="#" class="btn btn-success border-light">Saiba Mais</a>
     </div>
   </section>
 
@@ -51,11 +51,8 @@
       </font>
     </h2>
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5">
+      <div class="col d-flex align-items-start">     
         <div>
           <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
             <font style="vertical-align: inherit;">
@@ -90,9 +87,7 @@
         </div>
       </div>
       <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#calendar3"></use>
-        </svg>
+    
         <div>
           <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
             <font style="vertical-align: inherit;">
@@ -108,52 +103,22 @@
           </p>
         </div>
       </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#home"></use>
-        </svg>
-        <div>
-          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-            <font style="vertical-align: inherit;">
-              <font style="vertical-align: inherit;">Título em destaque</font>
-            </font>
-          </h3>
-          <p>
-            <font style="vertical-align: inherit;">
-              <font style="vertical-align: inherit;">Parágrafo de texto abaixo do título para explicar o título.</font>
-            </font>
-          </p>
-        </div>
-      </div>
-
-
+  
     </div>
     <main>
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm border-success">
-            <div class="card-header py-3 text-bg-success border-success">
-              <h4 class="my-0 fw-normal">Venda de Veículos</h4>
-            </div>
-            <div class="card-body">
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>Equipamentos novos e usados disponíveis</li>
-                <li>Financiamento facilitado</li>
-                <li>Garantia de qualidade</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm border-success">
+          <div class="card mb-4 rounded-3 shadow-sm border-light">
             <div class="card-header py-3 text-bg-success border-success">
               <h4 class="my-0 fw-normal">Locação de Veículos</h4>
             </div>
             <div class="card-body">
               <ul class="list-unstyled mt-3 mb-4">
+                <strong>
                 <li> * Flexibilidade de aluguel por período</li>
                 <li> * Manutenção incluída</li>
                 <li> * Suporte técnico especializado</li>
+              </strong>
               </ul>
             </div>
           </div>
@@ -161,13 +126,32 @@
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm border-light">
             <div class="card-header py-3 text-bg-success border-success">
+              <h4 class="my-0 fw-normal">Venda de Veículos</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled mt-3 mb-4">
+                <strong>
+                <li> * Equipamentos novos e usados disponíveis</li>
+                <li> * Financiamento facilitado</li>
+                <li> * Garantia de qualidade</li>
+              </strong>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-light">
+            <div class="card-header py-3 text-bg-success border-success">
               <h4 class="my-0 fw-normal">Contrate um Motorista</h4>
             </div>
             <div class="card-body">
               <ul class="list-unstyled mt-3 mb-4">
-                <li>Motoristas certificados e confiáveis</li>
-                <li>Disponibilidade para diversos tipos de veículo</li>
-                <li>Flexibilidade de contratação por período</li>
+                <strong>
+                <li> * Motoristas certificados e confiáveis</li>
+                <li> * Disponibilidade para diversos tipos de veículo</li>
+                <li> * Flexibilidade de contratação por período</li>
+              </strong>
               </ul>
             </div>
           </div>
@@ -246,7 +230,14 @@
 
     <hr class="featurette-divider">
 
-    <form id="contactForm">
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 class="pb-2 border-bottom">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Entre em contato conosco</font>
+        </font>
+      </h2>
+
+    <form id="contactForm"  href="#contato">
       <!-- Name input -->
       <div data-mdb-input-init class="form-outline mb-4">
         <label class="form-label" for="name">Nome</label>
@@ -281,7 +272,14 @@
       </div>
 
       <!-- Submit button -->
-      <button data-mdb-ripple-init type="submit" class="btn btn-success border-light btn-block mb-4">Enviar</button>
+      <button data-mdb-ripple-init type="submit" class="btn btn-success border-light btn-block mb-4" >Enviar</button>
+
+      <div class="whatsapp-contact">
+        <a href="https://wa.me/$$$NUMERO?text=Olá!%20Gostaria%20de%20mais%20informações." target="_blank">
+          <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQuODY4LDQzLjMwM2wyLjY5NC05LjgzNUM1LjksMzAuNTksNS4wMjYsMjcuMzI0LDUuMDI3LDIzLjk3OUM1LjAzMiwxMy41MTQsMTMuNTQ4LDUsMjQuMDE0LDVjNS4wNzksMC4wMDIsOS44NDUsMS45NzksMTMuNDMsNS41NjZjMy41ODQsMy41ODgsNS41NTgsOC4zNTYsNS41NTYsMTMuNDI4Yy0wLjAwNCwxMC40NjUtOC41MjIsMTguOTgtMTguOTg2LDE4Ljk4Yy0wLjAwMSwwLDAsMCwwLDBoLTAuMDA4Yy0zLjE3Ny0wLjAwMS02LjMtMC43OTgtOS4wNzMtMi4zMTFMNC44NjgsNDMuMzAzeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik00Ljg2OCw0My44MDNjLTAuMTMyLDAtMC4yNi0wLjA1Mi0wLjM1NS0wLjE0OGMtMC4xMjUtMC4xMjctMC4xNzQtMC4zMTItMC4xMjctMC40ODNsMi42MzktOS42MzZjLTEuNjM2LTIuOTA2LTIuNDk5LTYuMjA2LTIuNDk3LTkuNTU2QzQuNTMyLDEzLjIzOCwxMy4yNzMsNC41LDI0LjAxNCw0LjVjNS4yMSwwLjAwMiwxMC4xMDUsMi4wMzEsMTMuNzg0LDUuNzEzYzMuNjc5LDMuNjgzLDUuNzA0LDguNTc3LDUuNzAyLDEzLjc4MWMtMC4wMDQsMTAuNzQxLTguNzQ2LDE5LjQ4LTE5LjQ4NiwxOS40OGMtMy4xODktMC4wMDEtNi4zNDQtMC43ODgtOS4xNDQtMi4yNzdsLTkuODc1LDIuNTg5QzQuOTUzLDQzLjc5OCw0LjkxMSw0My44MDMsNC44NjgsNDMuODAzeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNjZmQ4ZGMiIGQ9Ik0yNC4wMTQsNWM1LjA3OSwwLjAwMiw5Ljg0NSwxLjk3OSwxMy40Myw1LjU2NmMzLjU4NCwzLjU4OCw1LjU1OCw4LjM1Niw1LjU1NiwxMy40MjhjLTAuMDA0LDEwLjQ2NS04LjUyMiwxOC45OC0xOC45ODYsMTguOThoLTAuMDA4Yy0zLjE3Ny0wLjAwMS02LjMtMC43OTgtOS4wNzMtMi4zMTFMNC44NjgsNDMuMzAzbDIuNjk0LTkuODM1QzUuOSwzMC41OSw1LjAyNiwyNy4zMjQsNS4wMjcsMjMuOTc5QzUuMDMyLDEzLjUxNCwxMy41NDgsNSwyNC4wMTQsNSBNMjQuMDE0LDQyLjk3NEMyNC4wMTQsNDIuOTc0LDI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NEMyNC4wMTQsNDIuOTc0LDI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NCBNMjQuMDE0LDQyLjk3NEMyNC4wMTQsNDIuOTc0LDI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NEMyNC4wMTQsNDIuOTc0LDI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NCBNMjQuMDE0LDRDMjQuMDE0LDQsMjQuMDE0LDQsMjQuMDE0LDRDMTIuOTk4LDQsNC4wMzIsMTIuOTYyLDQuMDI3LDIzLjk3OWMtMC4wMDEsMy4zNjcsMC44NDksNi42ODUsMi40NjEsOS42MjJsLTIuNTg1LDkuNDM5Yy0wLjA5NCwwLjM0NSwwLjAwMiwwLjcxMywwLjI1NCwwLjk2N2MwLjE5LDAuMTkyLDAuNDQ3LDAuMjk3LDAuNzExLDAuMjk3YzAuMDg1LDAsMC4xNy0wLjAxMSwwLjI1NC0wLjAzM2w5LjY4Ny0yLjU0YzIuODI4LDEuNDY4LDUuOTk4LDIuMjQzLDkuMTk3LDIuMjQ0YzExLjAyNCwwLDE5Ljk5LTguOTYzLDE5Ljk5NS0xOS45OGMwLjAwMi01LjMzOS0yLjA3NS0xMC4zNTktNS44NDgtMTQuMTM1QzM0LjM3OCw2LjA4MywyOS4zNTcsNC4wMDIsMjQuMDE0LDRMMjQuMDE0LDR6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzQwYzM1MSIgZD0iTTM1LjE3NiwxMi44MzJjLTIuOTgtMi45ODItNi45NDEtNC42MjUtMTEuMTU3LTQuNjI2Yy04LjcwNCwwLTE1Ljc4Myw3LjA3Ni0xNS43ODcsMTUuNzc0Yy0wLjAwMSwyLjk4MSwwLjgzMyw1Ljg4MywyLjQxMyw4LjM5NmwwLjM3NiwwLjU5N2wtMS41OTUsNS44MjFsNS45NzMtMS41NjZsMC41NzcsMC4zNDJjMi40MjIsMS40MzgsNS4yLDIuMTk4LDguMDMyLDIuMTk5aDAuMDA2YzguNjk4LDAsMTUuNzc3LTcuMDc3LDE1Ljc4LTE1Ljc3NkMzOS43OTUsMTkuNzc4LDM4LjE1NiwxNS44MTQsMzUuMTc2LDEyLjgzMnoiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOS4yNjgsMTYuMDQ1Yy0wLjM1NS0wLjc5LTAuNzI5LTAuODA2LTEuMDY4LTAuODJjLTAuMjc3LTAuMDEyLTAuNTkzLTAuMDExLTAuOTA5LTAuMDExYy0wLjMxNiwwLTAuODMsMC4xMTktMS4yNjUsMC41OTRjLTAuNDM1LDAuNDc1LTEuNjYxLDEuNjIyLTEuNjYxLDMuOTU2YzAsMi4zMzQsMS43LDQuNTksMS45MzcsNC45MDZjMC4yMzcsMC4zMTYsMy4yODIsNS4yNTksOC4xMDQsNy4xNjFjNC4wMDcsMS41OCw0LjgyMywxLjI2Niw1LjY5MywxLjE4N2MwLjg3LTAuMDc5LDIuODA3LTEuMTQ3LDMuMjAyLTIuMjU1YzAuMzk1LTEuMTA4LDAuMzk1LTIuMDU3LDAuMjc3LTIuMjU1Yy0wLjExOS0wLjE5OC0wLjQzNS0wLjMxNi0wLjkwOS0wLjU1NHMtMi44MDctMS4zODUtMy4yNDItMS41NDNjLTAuNDM1LTAuMTU4LTAuNzUxLTAuMjM3LTEuMDY4LDAuMjM4Yy0wLjMxNiwwLjQ3NC0xLjIyNSwxLjU0My0xLjUwMiwxLjg1OWMtMC4yNzcsMC4zMTctMC41NTQsMC4zNTctMS4wMjgsMC4xMTljLTAuNDc0LTAuMjM4LTIuMDAyLTAuNzM4LTMuODE1LTIuMzU0Yy0xLjQxLTEuMjU3LTIuMzYyLTIuODEtMi42MzktMy4yODVjLTAuMjc3LTAuNDc0LTAuMDMtMC43MzEsMC4yMDgtMC45NjhjMC4yMTMtMC4yMTMsMC40NzQtMC41NTQsMC43MTItMC44MzFjMC4yMzctMC4yNzcsMC4zMTYtMC40NzUsMC40NzQtMC43OTFjMC4xNTgtMC4zMTcsMC4wNzktMC41OTQtMC4wNC0wLjgzMUMyMC42MTIsMTkuMzI5LDE5LjY5LDE2Ljk4MywxOS4yNjgsMTYuMDQ1eiIgY2xpcC1ydWxlPSJldmVub2RkIj48L3BhdGg+Cjwvc3ZnPg=="  alt="Entre em contato via WhatsApp"/>
+            
+        </a>
+    </div>
     </form>
 
 </body>
@@ -310,7 +308,7 @@
   <div class="col-md-4 d-flex align-items-center">
     <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
     </a>
-    <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+    <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 LocaAgro, Inc</span>
   </div>
 
   <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
